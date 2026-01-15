@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FakeNewsDetection
 It detect fake news 
 ## Dataset
@@ -26,3 +27,6 @@ Machine Learning and Natural Language Processing techniques.
 
 ## 📂 Project Structure
 
+=======
+# FakeNewsDetection 
+>>>>>>> 0f14be5 (Initial clean commit - Fake News Detection)
