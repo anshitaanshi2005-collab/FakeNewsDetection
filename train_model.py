@@ -71,4 +71,5 @@ with open(os.path.join(MODEL_DIR, "fake_news_model.pkl"), "wb") as f:
 with open(os.path.join(MODEL_DIR, "tfidf.pkl"), "wb") as f:
     pickle.dump(vectorizer, f)
 
-print("✅ Model trained and saved successfully")
+print("✅ Model trained , run and saved successfully")
+
