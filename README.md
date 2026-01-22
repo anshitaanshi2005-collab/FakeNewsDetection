@@ -1,179 +1,147 @@
 
-<<<<<<< HEAD
+# Fake News Detection System 📰🔍
 
-FakeNewsDetection
-It detect fake news
+## 📌 Project Overview
 
-Dataset
-The dataset files are not uploaded due to GitHub file size limits.
+The **Fake News Detection System** is a Machine Learning–based application that classifies news articles as **Fake** or **Real** using Natural Language Processing (NLP) techniques.
+It uses text preprocessing, TF-IDF vectorization, and a supervised learning model to achieve high accuracy.
 
-Download the dataset from: https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
+This project is suitable for **academic submissions**, **mini projects**, and **learning ML + NLP pipelines**.
 
-Place the files inside: data/Fake.csv data/True.csv
+---
 
-Fake News Detection using Machine Learning
-📌 Project Description
-This project detects whether a news article is Fake or Real using Machine Learning and Natural Language Processing techniques.
+## 🎯 Objectives
 
-🛠 Technologies Used
-Python
-Pandas
-Scikit-learn
-Flask
-TF-IDF Vectorizer
-Logistic Regression
-GitHub
+* Detect fake news automatically using machine learning
+* Apply NLP techniques to real-world text data
+* Build an end-to-end ML workflow (training → testing → prediction)
+* Deploy the trained model using a Flask web application
 
-📂 Project Structure FakeNewsDetection/ │ ├── app.py # Flask web application ├── train_model.py # Model training script ├── README.md # Project documentation ├── .gitignore # Ignored files/folders │ ├── data/ # Dataset folder (ignored on GitHub) │ ├── Fake.csv │ └── True.csv │ ├── model/ # Trained model files (ignored on GitHub) │ ├── model.pkl │ └── tfidf.pkl │ └── venv/ # Virtual environment (ignored)
+---
 
-📊 Dataset
+## 🛠️ Technologies Used
 
-Fake.csv → Fake news articles
+* **Python 3.12**
+* **Pandas, NumPy**
+* **Scikit-learn**
+* **NLTK**
+* **Flask**
+* **TF-IDF Vectorizer**
+* **Git & GitHub**
 
-True.csv → Real news articles
+---
 
-📌 Note: Due to GitHub file size limits, the dataset files are not uploaded. You must download or place them manually inside the data/ folder.
+## 📂 Project Structure
 
-⚙️ Model Training
+```
+FakeNewsDetection/
+│
+├── app.py               # Flask web application
+├── train_model.py       # Model training script
+├── README.md            # Project documentation
+├── .gitignore           # Ignored files/folders
+│
+├── data/                # Dataset folder (ignored on GitHub)
+│   ├── Fake.csv
+│   └── True.csv
+│
+├── model/               # Trained model files (ignored on GitHub)
+│   ├── model.pkl
+│   └── tfidf.pkl
+│
+└── venv/                # Virtual environment (ignored)
+```
+
+---
+
+## 📊 Dataset
+
+* **Fake.csv** → Fake news articles
+* **True.csv** → Real news articles
+
+📌 **Note:**
+Due to GitHub file size limits, the dataset files are **not uploaded**.
+You must download or place them manually inside the `data/` folder.
+
+---
+
+## ⚙️ Model Training
 
 To train the model, run:
 
+```bash
 python train_model.py
+```
 
 ✔ The script:
 
-Cleans text data
+* Cleans text data
+* Removes stopwords
+* Applies TF-IDF vectorization
+* Trains a machine learning classifier
+* Saves the trained model as `.pkl` files
 
-Removes stopwords
+📈 **Achieved Accuracy:** ~98%
 
-Applies TF-IDF vectorization
+---
 
-Trains a machine learning classifier
-
-Saves the trained model as .pkl files
-
-📈 Achieved Accuracy: ~98%
-
-🚀 Running the Application
+## 🚀 Running the Application
 
 Start the Flask app using:
 
+```bash
 python app.py
+```
 
 Then open your browser and go to:
 
-http://127.0.0.1:5000/ 🔒 GitHub Large File Handling
+```
+http://127.0.0.1:5000/
+```
 
-The following files are ignored using .gitignore:
+---
 
-data/
+## 🔒 GitHub Large File Handling
 
-model/
+The following files are **ignored** using `.gitignore`:
 
-venv/
-
-*.csv
-
-*.pkl
+* `data/`
+* `model/`
+* `venv/`
+* `*.csv`
+* `*.pkl`
 
 This avoids GitHub push errors due to large file size restrictions.
 
-🧠 Future Enhancements
+---
 
-Use deep learning models (LSTM / BERT)
+## 🧠 Future Enhancements
 
-Add news source credibility scoring
+* Use deep learning models (LSTM / BERT)
+* Add news source credibility scoring
+* Deploy on cloud (Heroku / Render)
+* Improve UI with HTML/CSS
 
-Deploy on cloud (Heroku / Render)
+---
 
-Improve UI with HTML/CSS
+## 👩‍💻 Author
 
-👩‍💻 Author
+**Anshita Arya**
+Computer Science Student
 
-Anshita Arya Computer Science Student
+---
 
-📜 License
+## 📜 License
 
-This project is for educational purposes only.
-## Badges
+This project is for **educational purposes only**.
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
+---
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+✅ *If you want, I can also:*
 
+* Simplify this for college submission
+* Add screenshots section
+* Create a report or PPT
+* Fix GitHub push completely
 
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
-## Features
-
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
-
-## Tech Stack
-
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express
-
-
-## Roadmap
-
-- Additional browser support
-
-- Add more integrations
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
-## Installation
-
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
-    
-## Usage/Examples
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
-```
-
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
-
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
-
+Just tell me 👍
