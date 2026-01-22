@@ -126,11 +126,6 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 **Server:** Node, Express
 
 
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
 ## Roadmap
 
 - Additional browser support
@@ -179,5 +174,6 @@ Contributions are always welcome!
 See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
+
 
 
