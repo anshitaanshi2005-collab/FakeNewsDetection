@@ -19,6 +19,7 @@ This project is suitable for **academic submissions**, **mini projects**, and **
 
 ---
 
+
 ## 🛠️ Technologies Used
 
 * **Python 3.12**
@@ -136,12 +137,58 @@ Computer Science Student
 This project is for **educational purposes only**.
 
 ---
+📊 Dataset (Kaggle)
 
-✅ *If you want, I can also:*
+The dataset used in this project is sourced from Kaggle:
 
-* Simplify this for college submission
-* Add screenshots section
-* Create a report or PPT
-* Fix GitHub push completely
+🔗 Fake and Real News Dataset
+https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
 
-Just tell me 👍
+Dataset Details
+
+Fake.csv – Fake news articles
+
+True.csv – Real news articles
+
+Key columns:
+
+title
+
+text
+
+subject
+
+date
+
+⚠️ Due to GitHub file size restrictions, the dataset files are not included in this repository.
+Please download them from Kaggle and place them inside the data/ directory.
+
+📈 Model Accuracy
+
+Feature Extraction: TF-IDF Vectorization
+
+Model Type: Machine Learning Classifier
+
+Evaluation Metric: Accuracy
+
+Final Accuracy: 98.21%
+
+Accuracy: 0.9821
+
+
+This high accuracy demonstrates the model’s strong ability to distinguish between fake and real news articles.
+
+🧠 Key Features
+
+Text preprocessing and cleaning
+
+Stopword removal using NLTK
+
+TF-IDF based feature extraction
+
+Supervised machine learning classification
+
+Trained model saved for reuse
+
+
+
